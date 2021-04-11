@@ -12,3 +12,6 @@ yarn add @babel/cli
 
 Convertendo JS com o babel
 yarn babel src/index.js --out-file public/bundle.js
+
+Para o babel entender arquivos js
+yarn add babel-loader
