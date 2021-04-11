@@ -1,4 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-render(<h1>Hello Word</h1>, document.getElementById('app'));
+import App from './App';
+
+//isso nao é um componente. JSX (JS XML) HTML dentro do JS
+render(<App />, document.getElementById('app'));
