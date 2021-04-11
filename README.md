@@ -15,3 +15,9 @@ yarn babel src/index.js --out-file public/bundle.js
 
 Para o babel entender arquivos js
 yarn add babel-loader
+
+ Instala servidor de desenvolvimento do WebPack
+ yarn add webpack-dev-server -D
+
+ Rodar o servidor webpack
+ yarn webpack serve --mode development
