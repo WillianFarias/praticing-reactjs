@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 //useState permite aplicar o conceito de estado a variaveis 
 
 import './App.css';
+import backgroundImg from './assets/background.jpeg';
 
 import Header from './components/Header';
 
