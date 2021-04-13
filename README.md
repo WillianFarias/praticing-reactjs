@@ -21,3 +21,6 @@ yarn add babel-loader
 
  Rodar o servidor webpack
  yarn webpack serve --mode development
+
+ Pacotes necessarios para trabalhar com CSS
+ yarn add style-loader css-loader

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 //useState permite aplicar o conceito de estado a variaveis 
 
+import './App.css';
+
 import Header from './components/Header';
 
 function App() {
