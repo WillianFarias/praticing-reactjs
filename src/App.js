@@ -23,6 +23,8 @@ function App() {
     //O react exige que o elemento principal tenha um key
     <>
       <Header title = "Projects" />
+
+      <img width={300} src= { backgroundImg }/>
       {projects.map(project => <li key={project}>{ project }</li>)}
 
       <button type="button" onClick={handleAddProject}>Adicionar Projeto</button>

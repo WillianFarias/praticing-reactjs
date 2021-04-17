@@ -26,4 +26,4 @@ yarn add babel-loader
  yarn add style-loader css-loader
 
  Pacote que permite que arquivos sejam carregados na aplicação
- yarn add file loader
+ yarn add file-loader
