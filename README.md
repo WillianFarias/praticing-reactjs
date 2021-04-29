@@ -11,11 +11,14 @@ yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
 Interface de linha de comando (permite eu utilizar o babel na minha linha de comando).
 yarn add @babel/cli
 
-Convertendo JS com o babel
-yarn babel src/index.js --out-file public/bundle.js
-
 Para o babel entender arquivos js
 yarn add babel-loader
+
+Convertendo codigo com o webpack em desenvolvimento
+yarn webpack --mode development
+
+Convertendo JS com o babel
+yarn babel src/index.js --out-file public/bundle.js
 
  Instala servidor de desenvolvimento do WebPack
  yarn add webpack-dev-server -D
