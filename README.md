@@ -8,6 +8,7 @@ yarn add react react-dom
 
 yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
 
+Interface de linha de comando (permite eu utilizar o babel na minha linha de comando).
 yarn add @babel/cli
 
 Convertendo JS com o babel
