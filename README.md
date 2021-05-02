@@ -32,4 +32,7 @@ yarn add style-loader css-loader
 Pacote que permite que arquivos sejam carregados na aplicação
 yarn add file-loader
 
+Responsavel por realizar chamadas ao back-end
+yarn add axios
+
 *create react app
